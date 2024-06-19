@@ -205,7 +205,7 @@ const App: React.FC = () => {
      
         {Carousel.map((link, index) => (
 
-          <EmblaCarousel
+          <HorizontalGallery
             classname={floorpadding}
             floor={link.floor} 
             loop={link.loop} 
